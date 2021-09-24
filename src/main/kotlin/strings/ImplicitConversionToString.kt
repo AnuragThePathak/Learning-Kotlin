@@ -14,6 +14,8 @@ class ImplicitConversionToString {
 //            println(9 + 'a' + "Hello")
             println('a' + 9 + "Hello")
 
+//            Even conversion to character doesn't work if number appears in the
+//            beginning.
 //            println(9 + 'a')
             println('a' + 9)
         }
